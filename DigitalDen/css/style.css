@@ -1,0 +1,103 @@
+
+/* banner section start */
+
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    height: auto;
+    background-size: 100%;
+    padding: 10px 0px 25px 0px;
+    background-repeat: no-repeat;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+
+.outstanding_text {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #252525;
+    padding-bottom: 0px;
+}
+
+.coffee_text {
+    width: 100%;
+    float: left;
+    font-size: 70px;
+    color: #fdfcfa;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.there_text {
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.learnmore_bt {
+    width: 170px;
+}
+
+.learnmore_bt a {
+    width: 100%;
+    float: left;
+    padding-right: 0;
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    margin-right: 12px;
+    height: 53px;
+    padding: 15px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.learnmore_bt a:hover {
+    background-color: #f76d37;
+    color: #fff;
+}
+
+#main_slider a.carousel-control-next {
+    left: 0px;
+    right: -60px;
+    top: 440px;
+}
+
+#main_slider a.carousel-control-prev {
+    left: -60px;
+    right: 0px;
+    top: 440px;
+}
+
+#main_slider .carousel-control-next,
+#main_slider .carousel-control-prev {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    opacity: 1;
+    font-size: 30px;
+    color: #333333;
+    margin: 0 auto;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main_slider .carousel-control-next:focus,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-prev:hover {
+    color: #ffffff;
+    background-color: #f76d37;
+}
+
+/* banner section end */

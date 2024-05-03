@@ -1,0 +1,152 @@
+
+.footer {
+    padding: 200px 0 0 0;
+    background-color: #041e42;
+    color: #ffffff; }
+    .footer > .container {
+      padding-bottom: 50px; }
+    .footer .footer-item .logo-bottom {
+      margin-bottom: 10px; }
+    .footer .footer-item .footer-title {
+      font-size: 24px;
+      font-weight: 600;
+      padding: 20px 0 20px 0;
+      border-top: 1px solid #073472;
+      margin-bottom: 0px !important;
+      position: relative; }
+      .footer .footer-item .footer-title:before {
+        content: '';
+        display: block;
+        width: 150px;
+        border-top: 2px solid #ed1c24;
+        position: absolute;
+        left: 0;
+        top: 0; }
+    .footer .footer-item .footer-sosmed {
+      margin-top: 50px;
+      margin-bottom: 30px;
+      display: inline-block; }
+      .footer .footer-item .footer-sosmed a .item {
+        color: #ffffff;
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 14px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #05295a;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        border-radius: 50px; }
+        .footer .footer-item .footer-sosmed a .item:hover {
+          background-color: #46c2ca; }
+        .footer .footer-item .footer-sosmed a .item .fa {
+          font-size: 16px; }
+    .footer .footer-item .list {
+      margin: 0;
+      padding: 0; }
+      .footer .footer-item .list li {
+        list-style: none;
+        margin: 14px 0; }
+        .footer .footer-item .list li a {
+          color: #46c2ca; }
+          .footer .footer-item .list li a:hover {
+            color: #ed1c24; }
+    .footer .footer-item .footer-subscribe {
+      position: relative; }
+      .footer .footer-item .footer-subscribe input[type=email] {
+        width: 100%;
+        background: #fff;
+        padding: 10px 57px 10px 17px;
+        min-height: 38px;
+        max-width: 480px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0; }
+        .footer .footer-item .footer-subscribe input[type=email]:focus {
+          background: #fff;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          -ms-border-radius: 2px;
+          border-radius: 2px;
+          -webkit-box-shadow: 0 0 0 2px #ed1c24;
+          -moz-box-shadow: 0 0 0 2px #ed1c24;
+          box-shadow: 0 0 0 2px #ed1c24;
+          border-color: transparent; }
+      .footer .footer-item .footer-subscribe input[type=submit] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        visibility: hidden; }
+      .footer .footer-item .footer-subscribe label {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: 0;
+        width: 40px;
+        height: 38px;
+        line-height: 40px;
+        padding: 0;
+        cursor: pointer;
+        text-align: center;
+        font-size: 13px;
+        background: none;
+        color: #ffffff;
+        outline: 0 !important;
+        -webkit-transition: color .3s ease;
+        -moz-transition: color .3s ease;
+        -ms-transition: color .3s ease;
+        -o-transition: color .3s ease;
+        transition: color .3s ease;
+        background: #ed1c24; }
+      .footer .footer-item .footer-subscribe .icon {
+        font-size: 18px; }
+      .footer .footer-item .footer-subscribe p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 13px;
+        margin-top: 16px; }
+    .footer .footer-item .recent-post {
+      margin: 0;
+      padding: 0; }
+      .footer .footer-item .recent-post li {
+        list-style: none;
+        margin: 0 0 30px; }
+        .footer .footer-item .recent-post li a {
+          color: #fff;
+          line-height: 20px;
+          display: inline-block;
+          vertical-align: top;
+          margin: 0 0 14px; }
+          .footer .footer-item .recent-post li a:hover {
+            color: #46c2ca; }
+        .footer .footer-item .recent-post li .date {
+          display: block;
+          font-size: 12px;
+          padding: 0;
+          color: rgba(255, 255, 255, 0.7); }
+          .footer .footer-item .recent-post li .date i {
+            margin-right: 5px; }
+    .footer .fcopy {
+      padding: 30px 0;
+      color: #ffffff;
+      font-size: 14px;
+      background-color: #041e42;
+      border-top: 1px solid #073472; }
+  
+  .list-info {
+    margin: 0;
+    padding: 0; }
+    .list-info li {
+      margin-bottom: 20px;
+      list-style: none; }
+      .list-info li .info-icon {
+        display: inline-block;
+        color: #041e42;
+        font-size: 16px;
+     
+    }
+      .list-info li .info-text {
+        margin-left: 30px; }
+  
