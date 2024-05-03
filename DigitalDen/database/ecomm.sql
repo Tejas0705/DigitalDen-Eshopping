@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 12, 2024 at 01:16 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: May 03, 2024 at 08:12 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -250,11 +250,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
 (1, 'admin@admin.com', '$2y$10$0SHFfoWzz8WZpdu9Qw//E.tWamILbiNCX7bqhy3od0gvK5.kSJ8N2', 1, 'Tejas', 'Pujari', 'Mangalore', '9372562500', 'thanos1.jpg', 1, '', '', '2024-01-27'),
-(9, 'tejupujari2001@gmail.com', '$2y$10$Oongyx.Rv0Y/vbHGOxywl.qf18bXFiZOcEaI4ZpRRLzFNGKAhObSC', 0, 'Tejas', 'Pujari', 'Pandeshwar,Mangalore', '9372562500', 'male2.png', 1, 'k8FBpynQfqsv', 'wzPGkX5IODlTYHg', '2024-01-27'),
-(13, 'shashankcoorg13@gmail.com', '$2y$10$G3KY2q2wdBWutiSCRTNEzOg/FH8uqYF.oVKa5o2eUNHcjD.S8QVNW', 0, 'Shashank', 'Bhat', 'manglore', '9372562500', 'thanos1.jpg', 1, 'SXB5xvbZFRGY', '', '2024-01-31'),
-(19, 'shashank@gmail.com', '$2y$10$3uN8UvzNCIHKS9f.jsOV3uYM5yhEd4QT/O/mbXytHIkWFVsz9ssUy', 0, 'Shashank', 'Bhat', '', '', '', 1, 'ASiXH6MjqolV', '', '2024-01-31'),
-(21, 'shank@gmail.com', '$2y$10$f88Wp7Uad4Stvv4mlzQsOuxde96HHpCzS786w0b22r0YTwgccbI9S', 0, 'Shashank', 'Bhat', 'Mangalore', '9768985725', '', 1, 'oOfT3QKvqcDA', '', '2024-01-31'),
-(37, 'amoghrao@gmail.com', '$2y$10$EHjhATjuS.jlw0EZ8RmwM.OiYiIrNg9mH2zxImZT0WvYPmT9n5lqi', 0, 'Amogh', 'Rao', '', '', '', 0, 'pfY8vxn2haR3', '', '2024-02-12');
+(2, 'tejupujari2001@gmail.com', '$2y$10$Oongyx.Rv0Y/vbHGOxywl.qf18bXFiZOcEaI4ZpRRLzFNGKAhObSC', 0, 'Tejas', 'Pujari', 'Pandeshwar,Mangalore', '9372562500', 'male2.png', 1, 'k8FBpynQfqsv', 'wzPGkX5IODlTYHg', '2024-01-27');
 
 --
 -- Indexes for dumped tables
@@ -358,7 +354,7 @@ ALTER TABLE `sales`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
